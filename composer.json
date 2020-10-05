@@ -1,0 +1,17 @@
+{
+    "name": "Price_Modifier/Price_Modifier-plugin",
+    "description": "Price modifier",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Price_Modifier",
+            "email": "anasnagati@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
