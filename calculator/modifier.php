@@ -24,7 +24,7 @@ function price_modifying()
 				$orig = get_post_meta( $id, $key = '_regular_price' , false);
 				foreach($orig as $value){
 
-					$priceafter = $value - ($value  * ($discount_rate/100 )) ;
+					$priceafter = $value + ($value  * ($discount_rate/100 )) ;
 
 					global $value;
 
