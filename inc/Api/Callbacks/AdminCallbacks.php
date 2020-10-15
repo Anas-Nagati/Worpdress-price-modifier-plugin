@@ -30,7 +30,7 @@ class AdminCallbacks extends BaseController
 	{
 		$value = esc_attr( get_option( 'Price_Modifier_rate' ) );
 		echo '<input type="text" class="regular-text" name="Price_Modifier_rate" value="' . $value . '" placeholder="ex: 20">';
-		echo '<br>'.'<br>'.'*in case you needed to increase prices just use  -  before the number '.'<br>'.'ex: -5 will add a 5% increase in prices of all products';
+		echo '<br>'.'<br>'.'*in case you needed to decrease prices just use  -  before the number '.'<br>'.'ex: 5 will add a 5% increase in prices of all products';
 
 	}
 
